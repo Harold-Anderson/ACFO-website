@@ -6,7 +6,7 @@ tags:
   - markdown
   - blog
   - Astro
-image: /src/assets/images/matt.jpg
+image: "~/assets/images/matt.jpg"
 ---
 # My First Blog Post
 
