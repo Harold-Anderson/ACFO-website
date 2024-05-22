@@ -17,6 +17,7 @@ import {
   responsiveTablesRehypePlugin,
   lazyImagesRehypePlugin,
 } from './src/utils/frontmatter.mjs';
+import { SITE } from 'astrowind:config';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -26,7 +27,7 @@ const whenExternalScripts = (items = []) =>
 
 export default defineConfig({
   site: 'https://beta.acfo.co',
-  trailingSlash: SITE.trailingSlash ? 'always' : 'never',
+//  trailingSlash: SITE.trailingSlash ? 'always' : 'never',
 
   output: 'static',
 
